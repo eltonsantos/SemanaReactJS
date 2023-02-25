@@ -1,7 +1,7 @@
 import { BrowserRouter, Route, Switch } from "react-router-dom";
-import Error from "./pages/Error";
-import Home from "./pages/Home";
-import Links from "./pages/Links";
+import { Error } from "./pages/Error";
+import { Home } from "./pages/Home";
+import { Links } from "./pages/Links";
 
 function RoutesApp() {
   return (

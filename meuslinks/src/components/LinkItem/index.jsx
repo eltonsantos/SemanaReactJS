@@ -1,7 +1,7 @@
 import { FiClipboard, FiX } from "react-icons/fi";
 import "./styles.css";
 
-export default function LinkItem({ closeModal, data }) {
+export function LinkItem({ closeModal, data }) {
   function copyLink() {
     navigator.clipboard.writeText(data.link);
     alert("URL Copiada com sucesso!");
