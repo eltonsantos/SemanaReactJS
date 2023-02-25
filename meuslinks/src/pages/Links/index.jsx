@@ -3,7 +3,7 @@ import { FiArrowLeft, FiLink, FiTrash } from "react-icons/fi";
 import { Link } from "react-router-dom";
 import { LinkItem } from "../../components/LinkItem";
 import { deleteLink, getLinksSave } from "../services/storeLinks";
-import "./links.css";
+import "./styles.css";
 
 export function Links() {
   const [myLinks, setMyLinks] = useState([]);

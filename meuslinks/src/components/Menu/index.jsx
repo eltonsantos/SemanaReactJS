@@ -2,7 +2,7 @@ import { BsGithub, BsLinkedin } from "react-icons/bs";
 import { Link } from "react-router-dom";
 import "./styles.css";
 
-export default function Menu() {
+export function Menu() {
   return (
     <div className="menu">
       <a

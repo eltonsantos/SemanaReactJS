@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { FiLink } from "react-icons/fi";
-import LinkItem from "../../components/LinkItem";
-import Menu from "../../components/Menu";
+import { LinkItem } from "../../components/LinkItem";
+import { Menu } from "../../components/Menu";
 import api from "../services/api";
 import "./styles.css";
 
